@@ -1,0 +1,42 @@
+/* Vehicle Group Container */
+.vehicle-group-container {
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #2c3e50;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .vehicle-group-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee4e4;
+    margin-bottom: 15px;
+  }
+  
+  /* List Styling */
+  .vehicle-group-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vehicle-group-item {
+    background: #f8f9fa;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .vehicle-group-item:hover {
+    background: #007bff;
+    color: white;
+  }
+  

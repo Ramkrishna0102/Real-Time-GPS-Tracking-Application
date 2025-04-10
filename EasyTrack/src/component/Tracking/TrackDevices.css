@@ -1,0 +1,52 @@
+/* src/component/Tracking/TrackDevices.css */
+
+.track-wrapper {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .device-sidebar {
+    width: 250px;
+    background-color: #1e293b;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .device-sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .device-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .device-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .error-msg {
+    color: #f87171;
+    margin-top: 10px;
+  }
+  
+  .map-area {
+    flex: 1;
+  }
+  
+  .map-container {
+    height: 100%;
+    width: 100%;
+  }
+  
